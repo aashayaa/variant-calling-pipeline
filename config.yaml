@@ -1,0 +1,7 @@
+sample:
+  - SRR2584863
+rawdir: "data/raw"
+refdir: "data/reference"
+trimmeddir: "results/trimmed"
+resultsdir: "results"
+vcfdir: "results/vcf"

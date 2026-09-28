@@ -1,0 +1,6 @@
+data/
+results/
+logs/
+.snakemake/
+__pycache__/
+.DS_Store
