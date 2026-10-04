@@ -10,7 +10,7 @@ I used *E. coli* as the test organism since its genome is small (~4.6 Mb),
 so the whole pipeline runs in a few minutes instead of hours. It's useful for
 testing and debugging without burning a ton of time on every run.
 
-## What it does, step by step
+## What it does
 (dag.png)
 1. **FastQC** on the raw reads, just checking what the data actually
    looks like before doing anything to it
