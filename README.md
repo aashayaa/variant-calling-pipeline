@@ -22,3 +22,17 @@ testing and debugging without burning a ton of time on every run.
    the reference) and then filters out low-confidence calls - Binary Call Format tools
 6. A small summary step reports the alignment rate and how many variants
    passed filtering
+   
+## Environment & Pipeline 
+
+The pipeline runs in a conda environment I've named "varcallingpipeline," the components
+of which I defined in `environment.yml`. Conda resolves and installs everything at once from 
+that single file.
+
+I'm using Snakemake to manage the workflow. The snakefile has each step defined clearly.
+Although I used some help from AI to figure out how a Snakefile is actually meant to
+be formatted, I wanted to write the script myself to develop a sense of this industry-
+standard skill. Snakemake figures out the correct execution order itself through a
+tool called a "dependency graph." `config.yaml` has the sample names and file paths. I
+have done this to prevent hardcoding and possible reuse this code in a lab setting.
+
