@@ -1,10 +1,10 @@
 # Variant Calling Pipeline
 
-This is a Snakemake pipeline I built to practice reproducible bioinformatics
-workflows, the kind of thing that comes up in genomics labs but isn't
-usually covered in intro coursework. It takes raw paired-end sequencing
+This is a Snakemake pipeline I built to practice bioinformatics
+workflows that come up in genomics labs but isn't usually covered 
+in intro coursework. It takes raw paired-end sequencing
 reads and turns them into a list of genetic variants, going through quality
-control, trimming, alignment, and variant calling along the way.
+control, trimming, alignment, and variant calling.
 
 I used *E. coli* as the test organism since its genome is small ( around 4.6 Mb),
 so the whole pipeline runs in a few minutes instead of hours. It's useful for
